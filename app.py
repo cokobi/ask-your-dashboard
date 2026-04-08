@@ -32,7 +32,7 @@ questions = [
 if "selected_question" not in st.session_state:
     st.session_state.selected_question = QUESTION_TRENDING
 
-st.title("Embedded Analytics Copilot")
+st.title("Ask Your Dashboard")
 st.subheader("Ask questions about your product analytics data")
 st.caption("Dataset: SaaS Product Usage (Last 30 Days)")
 
