@@ -1,4 +1,4 @@
-# Embedded Analytics Copilot
+# Ask Your Dashboard
 ### Turning Sisense analytics into answer-driven product experiences
 
 This prototype explores how developers can extend Sisense dashboards with a lightweight answer layer that lets users ask questions and receive direct insights from their analytics data.
