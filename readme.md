@@ -1,7 +1,7 @@
-# Ask Your Dashboard
+# Embedded Analytics Copilot
 ### Turning Sisense analytics into answer-driven product experiences
 
-This prototype explores how SaaS teams can extend Sisense dashboards with an answer layer that lets users ask questions and receive direct insights from their analytics data.
+This prototype explores how developers can extend Sisense dashboards with a lightweight answer layer that lets users ask questions and receive direct insights from their analytics data.
 
 Instead of asking users to interpret charts, the interface allows them to **ask questions about their product analytics and receive clear answers.**
 
@@ -71,7 +71,23 @@ This allows users to interact with analytics through **questions instead of char
 
 ---
 
-# Part 1 — Strategy
+## Example Developer Scenario
+
+Imagine a SaaS product that embeds a Sisense analytics dashboard inside its application.
+
+Users often need to open dashboards and manually interpret charts to understand what changed.
+
+By adding a lightweight **answer layer** on top of the analytics data, the product can allow users to ask questions such as:
+
+- Which feature is trending this week?
+- Which region uses the product the most?
+- Which feature has the lowest adoption?
+
+Instead of navigating multiple charts, users receive a direct explanation derived from the analytics data.
+
+---
+
+# Strategy
 
 ### 1. Who is the audience?
 
@@ -161,23 +177,27 @@ The system generates simple insights such as:
 
 ---
 
-# Architecture
+## Architecture
 
 The prototype uses a lightweight architecture designed for rapid experimentation.
 
-Sisense Dashboard
-      │
-      │ analytics data
-      ▼
-Streamlit Prototype
-      │
-      │ metrics + insights
-      ▼
-Answer Layer
-(question → explanation)
+
+```text
+        Sisense Dashboard
+                │
+                │ analytics data
+                ▼
+        Streamlit Prototype
+                │
+                │ metrics + insights
+                ▼
+          Answer Layer
+   (question → explanation)
+```
+
 ---
 
-# Components:
+Components:
 
 **Sisense**
 
