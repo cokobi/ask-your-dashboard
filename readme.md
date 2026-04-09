@@ -26,6 +26,14 @@ https://signup-avb8ijal.sisense.com/app/main/dashboards/69d64ea21199e85765da9c3a
 The dashboard above was created in the Sisense trial environment and serves as the analytics foundation for the prototype.
 ---
 
+## Video Walkthrough
+
+Short walkthrough of the prototype and concept:
+
+[Watch the video walkthrough](https://youtu.be/BxCJb8RkmX4)
+
+---
+
 Example interaction:
 
 User question  
